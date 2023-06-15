@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+    font-family: Times New Roman;
+}
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* min-width: 800px; */
+    color: #0D1216;
+    /* background-color: #83AFFC; */
+    background: -webkit-linear-gradient(to top, #FFF94C, #004FF9);
+    background: linear-gradient(to top, #FFF94C, #004FF9);
+    background-image: linear-gradient(to top, rgb(255, 249, 76), rgb(0, 79, 249));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-attachment: fixed;
+    height: 100%;
+    font-size: 14px/1.4 Times New Roman;
+}
+
+header {
+    background-image: url("../images/header.jpg");
+    background-repeat: round;
+    height: 230px;
+}
+
+h1 {
+    padding-top: 150px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.head-link {
+    margin-left: 2%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    background: #1554dc;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 80%;
+    margin: 1% auto;
+    font-size: 32px;
+}
+
+.nav-link {
+    margin: 0 20px;
+}
+
+.nav-link:hover {
+    color: #ef4bc9;
+    transition: 1s ease;
+}
+
+.up-home {
+    position: fixed;
+    max-width: 5%;
+    right: 1%;
+    bottom: 1%;
+}
+
+.main-container {
+    background: #fff;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    border-radius: 10px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #1263e0;
+    display: inline-block;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    border-radius: 10px;
+    margin: 3% auto;
+    color: #fff;
+    padding: 1%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    /*background-color: red;*/
+}
+
+.content ol {
+    /*border-right: 1px solid black;*/
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.title {
+    font-size: 22px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.content ol li {
+    margin-left: 20px;
+}
+
+.content-div {
+    background-color: #fff;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+::selection {
+    background-color: #e8e520;
+}
